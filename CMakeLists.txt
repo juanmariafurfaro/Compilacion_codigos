@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.21)
+project(Compilacion_codigos C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(Compilacion_codigos main.c Lista_simplemente_diccionario.c Lista_simplemente_diccionario.h Lista_doble_diccionario.c Lista_doble_diccionario.h lista_circular_diccionario.c lista_circular_diccionario.h lista_doble_circular_diccionario.c lista_doble_circular_diccionario.h lista_estatica_circular.c lista_estatica_circular.h arboles.c arboles.h)
